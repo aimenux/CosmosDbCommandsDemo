@@ -4,7 +4,7 @@ Playing crud commands on cosmos db
 
 In this demo, i m playing with `CommandLineUtils` library & `TimeToLive` feature in CosmosDb. I m providing commands/options to :
 > - Insert documents in cosmos db ( `.\App.exe Initialize`)
-> - Removing documents in cosmos db (`.\App.exe Set --ttl 30 --from 2020-08-08 --to 2020-08-10`)
+> - Remove documents in cosmos db (`.\App.exe Set --ttl 30 --from 2020-08-08 --to 2020-08-10`)
 
 ```
 ❯ .\App.exe
