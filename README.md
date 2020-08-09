@@ -2,11 +2,9 @@
 # CosmosDbCommandsDemo
 Playing crud commands on cosmos db
 
-In this demo, i m playing with CommandLineUtils library & TimeToLive feature in CosmosDb.
-> - I m using an ioc fashion to set up commands/options using CommandLineUtils library
-> - I m providing two commands :
->> - `InitializeCommand` : inserting some documents in cosmos db (.\App.exe Initialize)
->> - `TimeToLiveCommand` : setting time to live to some value for documents matching with from/to dates (.\App.exe Initialize)
+In this demo, i m playing with `CommandLineUtils` library & `TimeToLive` feature in CosmosDb. I m providing commands/options to :
+> - Insert documents in cosmos db ( `.\App.exe Initialize`)
+> - Removing documents in cosmos db (`.\App.exe Set --ttl 30 --from 2020-08-08 --to 2020-08-10`)
 
 ```
 ❯ .\App.exe
