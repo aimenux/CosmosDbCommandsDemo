@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "CosmosDbCommandsDemo": {
+      "commandName": "Project",
+      "commandLineArgs": "Initialize",
+      "environmentVariables": {
+        "ENVIRONMENT": "DEV"
+      }
+    }
+  }
+}
